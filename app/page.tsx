@@ -27,6 +27,30 @@ export default function UpiVendingMachineLandingPage() {
       </section>
 
       {/* Features */}
+
+      {/* Machine Image */}
+
+<section className="py-16 px-6 bg-white">
+
+  <div className="max-w-5xl mx-auto text-center">
+
+    <h2 className="text-4xl font-bold mb-8">
+      Smart Vending Machine Prototype
+    </h2>
+
+    <img
+      src="machine.jpg"
+      alt="UPI Vending Machine"
+      className="mx-auto rounded-3xl shadow-2xl w-full max-w-3xl"
+    />
+
+    <p className="mt-6 text-lg text-gray-600">
+      Prototype machine designed for UPI-based automated product dispensing.
+    </p>
+
+  </div>
+
+</section>
       <section className="py-16 px-6">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold text-center mb-12">

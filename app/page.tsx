@@ -39,7 +39,7 @@ export default function UpiVendingMachineLandingPage() {
     </h2>
 
     <img
-      src="machine.jpg"
+      src="machine.png"
       alt="UPI Vending Machine"
       className="mx-auto rounded-3xl shadow-2xl w-full max-w-3xl"
     />

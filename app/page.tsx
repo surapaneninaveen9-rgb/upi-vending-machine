@@ -84,6 +84,92 @@ export default function UpiVendingMachineLandingPage() {
         </div>
       </section>
 
+      {/* Products */}
+
+<section className="py-16 px-6 bg-gray-50">
+
+  <div className="max-w-6xl mx-auto">
+
+    <h2 className="text-4xl font-bold text-center mb-12">
+      Products
+    </h2>
+
+    <div className="grid md:grid-cols-2 gap-8">
+
+      <div className="bg-white p-8 rounded-3xl shadow-lg">
+
+        <h3 className="text-2xl font-semibold mb-4">
+          20L Drinking Water Can
+        </h3>
+
+        <p className="text-gray-600 leading-relaxed">
+          Customers can instantly purchase drinking water cans
+          through UPI payment using the smart vending machine.
+        </p>
+
+      </div>
+
+      <div className="bg-white p-8 rounded-3xl shadow-lg">
+
+        <h3 className="text-2xl font-semibold mb-4">
+          Smart QR Payment System
+        </h3>
+
+        <p className="text-gray-600 leading-relaxed">
+          Dynamic QR generation enables secure digital payments
+          using any UPI-enabled application.
+        </p>
+
+        
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+{/* Products */}
+
+<section className="py-6 px-6 bg-gray-20">
+
+  <div className="max-w-6xl mx-auto">
+    
+    <div className="grid md:grid-cols-2 gap-8">
+
+      <div className="bg-white p-8 rounded-3xl shadow-lg">
+
+        <h3 className="text-2xl font-semibold mb-4">
+          500ml and 1000ml Water Bottle
+        </h3>
+
+        <p className="text-gray-600 leading-relaxed">
+          Customers can instantly purchase drinking water 24/7 
+          through smart vending machine.
+        </p>
+
+      </div>
+
+      <div className="bg-white p-8 rounded-3xl shadow-lg">
+
+        <h3 className="text-2xl font-semibold mb-4">
+          Soft Drinks and Snacks
+        </h3>
+
+        <p className="text-gray-600 leading-relaxed">
+          With this type of systems we can reduse labor cost and serve 24 hours
+          with the help of smart vending machine.
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
       {/* Refund Policy */}
       <section className="py-16 px-6 bg-gray-50">
         <div className="max-w-5xl mx-auto">
@@ -122,7 +208,7 @@ export default function UpiVendingMachineLandingPage() {
 
           <div className="space-y-4 text-lg">
             <p>
-              Email: support@upivendingmachine.in
+              Email: surapaneninaveen9@gmail.com 
             </p>
 
             <p>

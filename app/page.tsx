@@ -1,3 +1,11 @@
+"use client";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/autoplay";
+
+import { Autoplay } from "swiper/modules";
+
 export default function UpiVendingMachineLandingPage() {
   return (
     <div className="min-h-screen bg-gray-100 text-gray-900">
@@ -30,23 +38,43 @@ export default function UpiVendingMachineLandingPage() {
 
       {/* Machine Image */}
 
+{/* Prototype Slider */}
+
 <section className="py-16 px-6 bg-white">
 
-  <div className="max-w-5xl mx-auto text-center">
+  <div className="max-w-4xl mx-auto text-center">
 
     <h2 className="text-4xl font-bold mb-8">
-      Smart Vending Machine Prototype
+      Smart Vending Machine Prototypes
     </h2>
 
-    <img
-      src="machine.png"
-      alt="UPI Vending Machine"
-      className="mx-auto rounded-3xl shadow-2xl w-full max-w-3xl"
-    />
+    <Swiper
+      modules={[Autoplay]}
+      autoplay={{
+        delay: 5000,
+        disableOnInteraction: false,
+      }}
+      loop={true}
+      className="rounded-3xl overflow-hidden shadow-2xl"
+    >
 
-    <p className="mt-6 text-lg text-gray-600">
-      Prototype machine designed for UPI-based automated product dispensing.
-    </p>
+      <SwiperSlide>
+        <img
+          src="/machine1.png"
+          alt="Prototype 1"
+          className="w-full"
+        />
+      </SwiperSlide>
+
+      <SwiperSlide>
+        <img
+          src="/machine2.png"
+          alt="Prototype 2"
+          className="w-full"
+        />
+      </SwiperSlide>
+
+    </Swiper>
 
   </div>
 

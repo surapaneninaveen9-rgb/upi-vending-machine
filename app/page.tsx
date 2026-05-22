@@ -126,7 +126,7 @@ export default function UpiVendingMachineLandingPage() {
             </p>
 
             <p>
-              Phone: +91 98765 43210
+              Phone: +91 9494769394
             </p>
 
             <p>
